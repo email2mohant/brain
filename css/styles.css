@@ -1,0 +1,150 @@
+/* Global Reset */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  /* pct of user font size*/
+  /* font-size: 10px; */
+  /* Font Size is 10px/16px = 0.625*/
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+header {
+  background-image: url(/images/home-banner-8.jpeg);
+}
+.headers-container {
+  margin: 0 auto;
+  width: 80%;
+  color: #fff;
+  position: relative;
+  height: 85vh;
+}
+.sub-header-container {
+  font-size: 1.3rem;
+  border-bottom: 1px solid #444;
+}
+
+.sub-headers-1 {
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sub-headers-2 {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  padding: 1rem 0.8rem;
+  border-right: 1px solid #444;
+}
+
+.sub-header-icon {
+  color: #f26822;
+  padding: 0.6rem;
+}
+
+.sub-header-icon:hover {
+  border-radius: 90%;
+  background-color: #999;
+  color: #fff;
+}
+
+.main-headers-container {
+  display: flex;
+  font-size: 1.5rem;
+  padding: 2rem 0.8rem;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.main-headers-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.main-headers-2 {
+  display: flex;
+  align-items: center;
+}
+.main-headers {
+  display: flex;
+  gap: 3rem;
+}
+.main-headers .header {
+  font-weight: 400;
+}
+.main-headers .header:hover {
+  color: #f26822;
+  cursor: pointer;
+}
+.company-logo {
+  height: 8.5rem;
+}
+
+.company-logo-container {
+  flex-grow: 1;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5rem 2.5rem;
+  background-color: #f26822;
+}
+
+.btn:link,
+.btn:visited {
+  color: #fff;
+}
+
+.btn:hover,
+.btn:active {
+  color: #c2531b;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+.banner-headline {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.9px;
+}
+
+.banner-title {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.banner-description {
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 4.5rem;
+}
+
+.btn-full {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  background-color: #f26822;
+  border-radius: 2rem;
+  transition: background-color 1s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #c2531b;
+}
