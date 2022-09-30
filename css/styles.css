@@ -170,6 +170,8 @@ header {
 .from-top {
   animation-name: from-top;
   animation-duration: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
 .animation-delay-2 {
@@ -183,12 +185,12 @@ header {
   animation-delay: 0.8s;
 }
 @keyframes from-top {
-  0% {
+  from {
     opacity: 0;
     transform: translateY(-200px);
   }
 
-  100% {
+  to {
     opacity: 1;
     transform: translateY(0);
   }
