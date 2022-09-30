@@ -15,7 +15,7 @@ body {
   font-family: "Rubik", sans-serif;
 }
 header {
-  background-image: url(/images/home-banner-8.jpeg);
+  /* background-image: url(/images/home-banner-8.jpeg); */
 }
 .headers-container {
   margin: 0 auto;
@@ -86,7 +86,7 @@ header {
   cursor: pointer;
 }
 .company-logo {
-  height: 8.5rem;
+  height: 5.5rem;
 }
 
 .company-logo-container {
@@ -95,6 +95,7 @@ header {
 
 .btn {
   text-decoration: none;
+  font-size: 1.4rem;
   color: #fff;
   padding: 1.5rem 2.5rem;
   background-color: #f26822;
@@ -109,12 +110,7 @@ header {
 .btn:active {
   color: #c2531b;
 }
-.banner-content {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0, -50%);
-}
+
 .banner-headline {
   font-size: 2.5rem;
   margin-bottom: 2rem;
@@ -141,10 +137,59 @@ header {
   padding: 1rem 2rem;
   background-color: #f26822;
   border-radius: 2rem;
-  transition: background-color 1s;
+  transition: background-color 1.5s;
 }
 
 .btn-full:hover,
 .btn-full:active {
   background-color: #c2531b;
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.carousel-item img {
+  top: 0;
+  left: 0;
+  min-height: 80vh;
+}
+
+.carousel-caption {
+  top: 40%;
+  left: 15%;
+  text-align: left;
+}
+
+.from-top {
+  animation-name: from-top;
+  animation-duration: 1s;
+}
+
+.animation-delay-2 {
+  animation-delay: 0.2s;
+}
+.animation-delay-6 {
+  animation-delay: 0.6s;
+}
+
+.animation-delay-8 {
+  animation-delay: 0.8s;
+}
+@keyframes from-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
