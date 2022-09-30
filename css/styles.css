@@ -142,7 +142,8 @@ header {
 
 .btn-full:hover,
 .btn-full:active {
-  background-color: #c2531b;
+  background-color: red;
+  /* background-color: #c2531b; */
 }
 
 .carousel {
@@ -162,6 +163,7 @@ header {
 }
 
 .carousel-caption {
+  position: absolute;
   top: 40%;
   left: 15%;
   text-align: left;
