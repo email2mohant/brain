@@ -138,7 +138,7 @@ header {
   padding: 1rem 2rem;
   background-color: #f26822;
   border-radius: 2rem;
-  transition: background-color 1.5s;
+  transition: background-color 0.75s;
 }
 
 .btn-full:hover,
