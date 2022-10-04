@@ -1,0 +1,22 @@
+{
+  "name": "brainhr",
+  "version": "1.0.0",
+  "description": "Brain HR IT Solutinos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/email2mohant/brain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/email2mohant/brain/issues"
+  },
+  "homepage": "https://github.com/email2mohant/brain#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
