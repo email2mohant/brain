@@ -48,10 +48,13 @@ body {
   padding: 1rem 2rem;
   cursor: pointer;
   /* transition: all 0.75s; */
-  display: flex;
-  align-items: flex-end;
+  /* display: flex; */
+  /* align-items: flex-end; */
 }
 
+.dropdown-item a {
+  display: block;
+}
 .dropdown-item:hover {
   background-color: #f26822;
 }
@@ -61,14 +64,18 @@ body {
 }
 
 .dropdown-item-icon {
+  display: inline-block;
   color: #f26822;
   font-size: 1.5rem;
   padding-right: 1rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 .dropdown-item-text {
   padding-left: 0.5rem;
   display: inline-block;
+  /* border: 1px solid white; */
 }
 
 .dropdown-item a {
@@ -77,8 +84,8 @@ body {
 }
 
 .dropdown-item.dropdown::after {
-  position: relative;
-  content: "\f101";
+  /* position: absolute; */
+  /* content: "\f101"; */
   font-family: "FontAwesome";
   padding-left: 1rem;
   font-size: 1rem;
