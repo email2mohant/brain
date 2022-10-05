@@ -44,9 +44,15 @@ body {
   font-size: 1.3rem;
 }
 
+.overflow-scroll {
+  overflow-y: scroll;
+  max-height: 40rem;
+}
+
 .dropdown-item {
   padding: 1rem 2rem;
   cursor: pointer;
+
   /* transition: all 0.75s; */
   /* display: flex; */
   /* align-items: flex-end; */
@@ -75,7 +81,6 @@ body {
 .dropdown-item-text {
   padding-left: 0.5rem;
   display: inline-block;
-  /* border: 1px solid white; */
 }
 
 .dropdown-item a {
