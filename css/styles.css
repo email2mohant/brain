@@ -83,14 +83,14 @@ body {
   color: #fff;
 }
 
-.dropdown-item.dropdown::after {
-  /* position: absolute; */
-  /* content: "\f101"; */
+.dropdown-item.dropdown > a > .dropdown-item-text::after {
+  content: "\f101";
   font-family: "FontAwesome";
   padding-left: 1rem;
   font-size: 1rem;
+  color: #f26822;
 }
-.dropdown-item.dropdown:hover::after {
+.dropdown-item.dropdown:hover > a > .dropdown-item-text::after {
   color: #fff;
 }
 .right-menu {
