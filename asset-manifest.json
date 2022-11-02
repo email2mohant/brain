@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/brain/static/css/main.67e5b500.css",
+    "main.js": "/brain/static/js/main.77a21d43.js",
+    "index.html": "/brain/index.html",
+    "main.67e5b500.css.map": "/brain/static/css/main.67e5b500.css.map",
+    "main.77a21d43.js.map": "/brain/static/js/main.77a21d43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67e5b500.css",
+    "static/js/main.77a21d43.js"
+  ]
+}
