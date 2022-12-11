@@ -1,0 +1,120 @@
+/* Global Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* pct of user font size*/
+  /* font-size: 10px; */
+  /* Font Size is 10px/16px = 0.625*/
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 1.5rem 2.5rem;
+  background-color: #f26822;
+  white-space: nowrap;
+}
+
+.btn:link,
+.btn:visited {
+  color: #fff;
+}
+
+.btn:hover,
+.btn:active {
+  color: #c2531b;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 3rem;
+  background-color: #f26822;
+  border-radius: 2rem;
+  transition: background-color 0.75s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #c2531b;
+}
+
+.carousel {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.carousel-item img {
+  top: 0;
+  left: 0;
+  min-height: 80vh;
+}
+
+.carousel-caption {
+  top: 40%;
+  left: 15%;
+  text-align: left;
+  z-index: 2;
+}
+
+.section {
+  width: 80%;
+  margin: 13rem auto;
+}
+
+.section-name {
+  color: #f26822;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  color: #1a2322;
+  font-size: 4rem;
+  letter-spacing: -0.1rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.section-title-seperator {
+  height: 0.5rem;
+  background-color: #f26822;
+  width: 15rem;
+  margin-bottom: 2rem;
+}
+
+.section-description {
+  color: #616670;
+  font-size: 1.6rem;
+  padding-right: 5rem;
+}
+
+.section-description p {
+  margin-bottom: 2rem;
+}
+
+.intro-section {
+  display: flex;
+}
+
+.intro-section-details {
+  flex: 1;
+}
