@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import "./components/common/styles/styles.css";
-import "./components/common/styles/animations.css";
+import Home from "./components/pages/home/Home";
+import About from "./components/pages/about/About";
+import "./common/css/styles.css";
+import "./common/css/animations.css";
 
 class App extends React.Component {
   constructor(props) {

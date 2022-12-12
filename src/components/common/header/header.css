@@ -3,7 +3,7 @@
   width: 80%;
   color: #fff;
   position: relative;
-  height: 85vh;
+  height: 50vh;
 }
 
 .sub-header-container {
@@ -72,6 +72,7 @@
 }
 .company-logo {
   height: 5.5rem;
+  width: 14rem;
 }
 
 .company-logo-container {

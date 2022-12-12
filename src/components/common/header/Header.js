@@ -10,7 +10,10 @@ class Header extends React.Component {
             <div className="sub-headers-1">
               <div className="sub-headers-2">
                 <div className="sub-header">
-                  <a href="https://www.linkedin.com/" target="_blank">
+                  <a
+                    href="https://www.linkedin.com/company/brainhr-it-solutions"
+                    target="_blank"
+                  >
                     <span className="header-icon">
                       <i className="fa-brands fa-linkedin"></i>
                     </span>

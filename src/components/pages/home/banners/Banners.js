@@ -14,6 +14,7 @@ class Banners extends React.Component {
         data-bs-ride="carousel"
         data-bs-interval="4000"
       >
+        <div className="banners-container-overlay" />
         <div className="carousel-indicators">
           <button
             type="button"
