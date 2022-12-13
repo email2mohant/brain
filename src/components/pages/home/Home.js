@@ -10,6 +10,7 @@ import "./home.css";
 import Leader from "./leader/Leader";
 import ServiceCards from "./services/ServiceCards";
 import Statistics from "./statistics/Statistics";
+import Partners from "./partners/Partners";
 class Home extends React.Component {
   render() {
     return (
@@ -77,6 +78,7 @@ class Home extends React.Component {
         <Leader />
         <ServiceCards />
         <Statistics />
+        <Partners />
       </>
     );
   }
