@@ -47,8 +47,35 @@ class AppAnimations {
       opacity: 1,
       x: 0,
       transition: {
+        delay: 0.1,
         duration: 1,
       },
+    },
+  };
+  static SentenceTyping = {
+    hidden: {
+      color: "#f26822",
+      diplay: "none",
+    },
+    visible: {
+      diplay: "inline",
+      color: "#888",
+      transition: {
+        staggerChildren: 0.08,
+        when: "afterChildren",
+        duration: 2,
+      },
+    },
+  };
+
+  static LetterTyping = {
+    hidden: {
+      opacity: 0,
+      x: -100,
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
     },
   };
 }
