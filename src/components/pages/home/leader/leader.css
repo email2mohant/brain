@@ -1,0 +1,27 @@
+.leaderSection {
+  background-color: #1a2322;
+  margin-top: 8rem;
+  max-width: 70%;
+}
+
+.leaderSection .container {
+  padding: 13rem 0 20rem 8rem;
+  max-width: 55%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.leaderSection .title {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.leaderSection .industryName {
+  font-weight: 700;
+}
+
+.leaderSection .sub-text {
+  font-size: 1.5rem;
+  color: #fff;
+  font-style: italic;
+}

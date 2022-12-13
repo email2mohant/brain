@@ -49,3 +49,8 @@ body {
 .btn-full:active {
   background-color: #c2531b;
 }
+
+.section {
+  width: 80%;
+  margin: 8rem auto;
+}

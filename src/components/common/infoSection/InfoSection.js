@@ -1,5 +1,7 @@
+import { motion } from "framer-motion";
 import React from "react";
 import "./infoSection.css";
+import AppAnimations from "../../../common/js/animations";
 class InfoSection extends React.Component {
   constructor(props) {
     super(props);
@@ -8,17 +10,28 @@ class InfoSection extends React.Component {
   render() {
     return (
       <section className="section">
-        <div className="intro-section">
-          <div className="intro-section-details from-left animation-delay-4">
+        <motion.div
+          className="intro-section"
+          variants={AppAnimations.slideToRight}
+          initial="hidden"
+          whileInView="visible"
+        >
+          <motion.div
+            varints={AppAnimations.slideToRightTwo}
+            className="intro-section-details"
+          >
             <div className="section-name">{this.props.name}</div>
             <div className="section-title">{this.props.title}</div>
             <div className="section-title-seperator"></div>
             <div className="section-description">{this.props.children}</div>
-          </div>
-          <div className="intro-section-img from-left animation-delay-2">
+          </motion.div>
+          <motion.div
+            variants={AppAnimations.slideToRight}
+            className="intro-section-img"
+          >
             <img src={this.props.image} alt="intro image" />
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </section>
     );
   }
