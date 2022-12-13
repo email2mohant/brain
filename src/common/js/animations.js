@@ -1,4 +1,11 @@
 class AppAnimations {
+  static commonTransitions = {
+    when: "beforeChildren",
+    duration: 1,
+    type: "spring",
+    stiffness: 70,
+    staggerChildren: 0.5,
+  };
   static slideToRight = {
     hidden: {
       opacity: 0,
@@ -7,9 +14,7 @@ class AppAnimations {
     visible: {
       opacity: 1,
       x: 0,
-      transition: {
-        duration: 1,
-      },
+      transition: this.commonTransitions,
     },
   };
   static slideToRight2 = {
@@ -20,9 +25,7 @@ class AppAnimations {
     visible: {
       opacity: 1,
       x: 0,
-      transition: {
-        duration: 0.5,
-      },
+      transition: this.commonTransitions,
     },
   };
   static slideToTop = {
@@ -33,9 +36,7 @@ class AppAnimations {
     visible: {
       opacity: 1,
       y: 0,
-      transition: {
-        duration: 1,
-      },
+      transition: this.commonTransitions,
     },
   };
   static slideToLeft = {
@@ -46,10 +47,7 @@ class AppAnimations {
     visible: {
       opacity: 1,
       x: 0,
-      transition: {
-        delay: 0.1,
-        duration: 1,
-      },
+      transition: this.commonTransitions,
     },
   };
   static SentenceTyping = {
@@ -77,6 +75,10 @@ class AppAnimations {
       opacity: 1,
       x: 0,
     },
+  };
+  static none = {
+    hidden: {},
+    visible: {},
   };
 }
 

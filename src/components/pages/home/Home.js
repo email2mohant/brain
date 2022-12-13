@@ -8,6 +8,8 @@ import Card from "./card/Card";
 import AppAnimations from "../../../common/js/animations";
 import "./home.css";
 import Leader from "./leader/Leader";
+import ServiceCards from "./services/ServiceCards";
+import Statistics from "./statistics/Statistics";
 class Home extends React.Component {
   render() {
     return (
@@ -73,6 +75,8 @@ class Home extends React.Component {
           ></Card>
         </section>
         <Leader />
+        <ServiceCards />
+        <Statistics />
       </>
     );
   }

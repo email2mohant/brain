@@ -3,21 +3,17 @@ import React from "react";
 import "./infoSection.css";
 import AppAnimations from "../../../common/js/animations";
 class InfoSection extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <section className="section">
         <motion.div
           className="intro-section"
-          variants={AppAnimations.slideToRight}
+          variants={AppAnimations.none}
           initial="hidden"
           whileInView="visible"
         >
           <motion.div
-            varints={AppAnimations.slideToRightTwo}
+            variants={AppAnimations.slideToRight}
             className="intro-section-details"
           >
             <div className="section-name">{this.props.name}</div>
