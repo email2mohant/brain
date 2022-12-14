@@ -20,7 +20,7 @@ class Home extends React.Component {
         <div style={{ marginTop: "45rem" }}>
           <InfoSection
             name="BRAINHR IT SOLUTIONS (BITS)"
-            title="Delivering World Class Automation for all your Business needs"
+            title="Delivering World Class Automated Solutions for all your Business needs"
             image={introImg}
           >
             <p>
