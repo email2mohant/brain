@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import companyLogo from "../../../common/images/logo.png";
 import "./footer.css";
 export default class Footer extends React.Component {
@@ -32,7 +33,7 @@ export default class Footer extends React.Component {
             <div class="footerSectionHeader">Quick Links</div>
             <ul class="footerLinks">
               <li class="footerLink">
-                <a href="#">About US</a>
+                <Link to="/brain/about">About US</Link>
               </li>
               <li class="footerLink">
                 <a href="#">Services</a>
@@ -65,20 +66,32 @@ export default class Footer extends React.Component {
               </li>
             </ul>
           </div>
-          <div class="footerSection">
+          <div class="footerSection footerContactUs">
             <div class="footerSectionHeader">Contact</div>
             <ul class="footerLinks">
               <li>
-                <a href="#">About US</a>
+                <div>
+                  <span className="header-icon">
+                    <i className="fa fa-solid fa-location-dot"></i>
+                  </span>
+                  33 Wood Avenue South, Suite 618, Iselin NJ-08830, USA
+                </div>
               </li>
               <li>
-                <a href="#">About US</a>
+                <a href="#" target="_blank">
+                  <span className="header-icon">
+                    <i className="fa-solid fa-envelope"></i>
+                  </span>
+                </a>
+                <span>info@brainhritsolutions.com</span>
               </li>
               <li>
-                <a href="#">About US</a>
-              </li>
-              <li>
-                <a href="#">About US</a>
+                <div>
+                  <span className="header-icon">
+                    <i className="fa-solid fa-phone"></i>
+                  </span>
+                  <span>+1201-203-5406</span>
+                </div>
               </li>
             </ul>
           </div>

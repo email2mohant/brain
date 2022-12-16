@@ -2,6 +2,7 @@
   color: #fff;
   background-color: #1a2322;
   font-size: 1.3rem;
+  font-weight: 300;
 }
 .footerContainer {
   display: flex;
@@ -12,6 +13,9 @@
   margin: 0 auto;
 }
 .footerCompany {
+  width: 25rem;
+}
+.footerContactUs {
   width: 25rem;
 }
 .companyLogoImg {

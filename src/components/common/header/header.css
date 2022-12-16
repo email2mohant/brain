@@ -71,6 +71,15 @@
   cursor: pointer;
 }
 
+.main-headers .header a:hover,
+.main-headers .header a:link,
+.main-headers .header a:active,
+.main-headers .header a:hover {
+  color: #f26822;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .dropdown {
   padding-left: 0;
   list-style-type: none;
