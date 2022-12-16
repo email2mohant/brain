@@ -3,7 +3,7 @@ class AppAnimations {
     when: "beforeChildren",
     duration: 1,
     type: "spring",
-    stiffness: 70,
+    stiffness: 100,
     staggerChildren: 0.5,
   };
   static slideToRight = {
