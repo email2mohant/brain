@@ -3,15 +3,14 @@ import React from "react";
 export default class Counter extends React.Component {
   constructor(props) {
     super(props);
-    this.interval = 50;
+    this.interval = 20;
     this.state = {
       count: 0,
       maxCount: this.props.maxCount ? this.props.maxCount : 0,
       duration: this.props.duration ? this.props.duration * 1000 : 5 * 1000,
     };
-    this.increment =
-      this.props.maxCount * (this.interval / this.state.duration);
-    // console.log(this.state.maxCount + "-" + this.increment);
+    this.increment = this.props.maxCount / 100;
+    console.log(this.state.maxCount + "-" + this.increment);
   }
   componentDidMount() {
     this.timerID = setInterval(() => this.tick(), this.interval);
