@@ -1,5 +1,6 @@
 import React from "react";
 import CommonBanner from "../../common/banner/CommonBanner";
+import Footer from "../../common/footer/Footer";
 import Header from "../../common/header/Header";
 import InfoSection from "../../common/infoSection/InfoSection";
 import introImg from "./images/intro-img.jpeg";
@@ -45,6 +46,7 @@ class About extends React.Component {
             how to bank on technology that works for them.
           </p>
         </InfoSection>
+        <Footer />
       </>
     );
   }

@@ -3,6 +3,7 @@ import companyLogo from "../../../common/images/logo.png";
 import "./footer.css";
 export default class Footer extends React.Component {
   render() {
+    console.log("API URL: ", process.env);
     return (
       <footer class="footer">
         <div class="footerContainer">

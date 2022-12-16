@@ -17,8 +17,8 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/brain" element={<Home />} />
+          <Route path="/brain/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     );

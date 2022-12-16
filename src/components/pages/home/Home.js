@@ -44,7 +44,7 @@ class Home extends React.Component {
               Centric) Engagement Model.
             </p>
             <p>
-              <Link to="/about" className="btn-full">
+              <Link to="/brain/about" className="btn-full">
                 Read More
               </Link>
             </p>

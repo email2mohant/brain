@@ -11,7 +11,7 @@ export default class Counter extends React.Component {
     };
     this.increment =
       this.props.maxCount * (this.interval / this.state.duration);
-    console.log(this.state.maxCount + "-" + this.increment);
+    // console.log(this.state.maxCount + "-" + this.increment);
   }
   componentDidMount() {
     this.timerID = setInterval(() => this.tick(), this.interval);
