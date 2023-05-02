@@ -21,12 +21,12 @@ class InfoSection extends React.Component {
             <div className="section-title-seperator"></div>
             <div className="section-description">{this.props.children}</div>
           </motion.div>
-          <motion.div
+          {/* <motion.div
             variants={AppAnimations.slideToRight}
             className="intro-section-img"
           >
             <img src={this.props.image} alt="intro image" />
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </section>
     );

@@ -1,14 +1,15 @@
 .headers-container {
   margin: 0 auto;
-  width: 80%;
   color: #fff;
   position: relative;
-  height: 50vh;
+  background-color: #9999;
 }
 
 .sub-header-container {
   font-size: 1.3rem;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #fff;
+  width: 90%;
+  margin: auto;
 }
 
 .sub-headers-1 {
@@ -23,8 +24,8 @@
   justify-content: space-between;
   flex: 1;
   align-items: center;
-  padding: 1rem 0.8rem;
-  border-right: 1px solid #444;
+  padding: 0.5rem 0.8rem;
+  border-right: 1px solid #fff;
 }
 
 .header-icon {
@@ -42,9 +43,11 @@
 .main-headers-container {
   display: flex;
   font-size: 1.5rem;
-  padding: 2rem 0.8rem;
+  margin: auto;
+  padding: 2rem 0rem;
   justify-content: space-between;
   gap: 5rem;
+  width: 90%;
 }
 .main-headers-1 {
   display: flex;
@@ -163,6 +166,7 @@
 .dropdown-item.dropdown:hover > a > .dropdown-item-text::after {
   color: #fff;
 }
+
 .right-menu {
   position: absolute;
   top: 0%;

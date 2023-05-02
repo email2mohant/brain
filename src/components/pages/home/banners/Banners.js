@@ -1,10 +1,10 @@
 import React from "react";
 import "./banners.css";
 
-import banner1 from "./images/home-banner-11.jpeg";
-import banner2 from "./images/home-banner-8.jpeg";
-import banner3 from "./images/home-banner-6.jpeg";
-import banner4 from "./images/home-banner-5.jpeg";
+import banner1 from "./images/1.jpg";
+import banner2 from "./images/2.png";
+import banner3 from "./images/3.jpg";
+import banner4 from "./images/5.jpg";
 class Banners extends React.Component {
   render() {
     return (

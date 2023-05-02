@@ -99,7 +99,7 @@ export default class Footer extends React.Component {
 
         <div class="copyright">
           <span>
-            © 2022 BrainHR IT Solutions Incorporation. All rights reserved.
+            © 2023 BrainHR IT Solutions Incorporation. All rights reserved.
           </span>
         </div>
       </footer>

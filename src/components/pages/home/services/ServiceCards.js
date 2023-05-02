@@ -48,39 +48,36 @@ export default class ServiceCards extends React.Component {
           >
             <ServiceCard
               icon="fa-solid fa-users-viewfinder"
-              title="Service A"
-              description="  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis harum non, sequi tempora corporis, vel eum nihil, eligendi animi quasi quae. Culpa harum incidunt doloremque minima optio quos minus alias?
-              "
+              title="Consulting"
+              description="With a team of experienced consultatns, We are a leading partner in many IT companies across the US as their strategic IT consultant."
+              link="/services/consulting"
             ></ServiceCard>
             <ServiceCard
               icon="fa-solid fa-mobile-screen"
-              title="Service B"
-              description="  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis harum non, sequi tempora corporis, vel eum nihil, eligendi animi quasi quae. Culpa harum incidunt doloremque minima optio quos minus alias?
-              "
+              title="Staff Augmentation"
+              description="With a vast network of qualified IT professionals, We provide skilled and experienced talent to supplement a client's existing team."
+              link="/services/staff-augmentation"
             ></ServiceCard>
             <ServiceCard
               icon="fa-solid fa-book"
-              title="Service C"
-              description="  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis harum non, sequi tempora corporis, vel eum nihil, eligendi animi quasi quae. Culpa harum incidunt doloremque minima optio quos minus alias?
-              "
+              title="Strategic HR Solutions"
+              description="With a focus on data-driven solutions, We provide actionable insights that help organizations make informed HR decisions."
+              link="/services/hr-solutions"
             ></ServiceCard>
             <ServiceCard
               icon="fa-solid fa-share-from-square"
-              title="Service D"
-              description="  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis harum non, sequi tempora corporis, vel eum nihil, eligendi animi quasi quae. Culpa harum incidunt doloremque minima optio quos minus alias?
-              "
+              title="Recruitment"
+              description="We offer best in class Recruiting Solutions tailored for your staffing needs with extremely skilled candidates in neumerous technologies."
             ></ServiceCard>
             <ServiceCard
               icon="fa-solid fa-layer-group"
-              title="Service E"
-              description="  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis harum non, sequi tempora corporis, vel eum nihil, eligendi animi quasi quae. Culpa harum incidunt doloremque minima optio quos minus alias?
-              "
+              title="Onsite-Offshore Model"
+              description="Our Onsite-Offshore model reduces the cost burdent on reducing and maintaining the staff augmentation with permanent and temporary positions."
             ></ServiceCard>
             <ServiceCard
               icon="fa-solid fa-puzzle-piece"
-              title="Service F"
-              description="  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis harum non, sequi tempora corporis, vel eum nihil, eligendi animi quasi quae. Culpa harum incidunt doloremque minima optio quos minus alias?
-              "
+              title="Training"
+              description="We are a leading global talent development corporation offering training and development solutions to individuals and corporate clients."
             ></ServiceCard>
           </motion.div>
         </motion.div>

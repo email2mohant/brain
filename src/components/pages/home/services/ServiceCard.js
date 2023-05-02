@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./serviceCard.css";
 const fadeIn = {
   hidden: {
@@ -27,9 +28,9 @@ export default class ServiceCard extends React.Component {
           <div className="serviceCardTitle">{this.props.title}</div>
           <div className="serviceCardDescription">{this.props.description}</div>
           <div className="serviceCardLink">
-            <a href="#">
+            <Link to={this.props.link}>
               Learn More <i class="fa-solid fa-angles-right"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </motion.div>

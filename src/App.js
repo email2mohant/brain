@@ -5,8 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Home from "./components/pages/home/Home";
 import About from "./components/pages/about/About";
+import Consulting from "./components/pages/services/Consulting";
 import "./common/css/styles.css";
 import "./common/css/animations.css";
+import StaffAugmentation from "./components/pages/services/StaffAugmentation";
+import HRStrategicSolution from "./components/pages/services/HrStategicSolution";
 
 class App extends React.Component {
   constructor(props) {
@@ -17,8 +20,17 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path="/brain" element={<Home />} />
-          <Route path="/brain/about" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services/consulting" element={<Consulting />} />
+          <Route
+            path="/services/staff-augmentation"
+            element={<StaffAugmentation />}
+          />
+          <Route
+            path="/services/hr-solutions"
+            element={<HRStrategicSolution />}
+          />
         </Routes>
       </BrowserRouter>
     );
