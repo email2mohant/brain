@@ -68,16 +68,19 @@ export default class ServiceCards extends React.Component {
               icon="fa-solid fa-share-from-square"
               title="Recruitment"
               description="We offer best in class Recruiting Solutions tailored for your staffing needs with extremely skilled candidates in neumerous technologies."
+              link="/services/recruiting"
             ></ServiceCard>
             <ServiceCard
               icon="fa-solid fa-layer-group"
               title="Onsite-Offshore Model"
               description="Our Onsite-Offshore model reduces the cost burdent on reducing and maintaining the staff augmentation with permanent and temporary positions."
+              link="/services/onsite-offshore"
             ></ServiceCard>
             <ServiceCard
               icon="fa-solid fa-puzzle-piece"
               title="Training"
               description="We are a leading global talent development corporation offering training and development solutions to individuals and corporate clients."
+              link="/services/trainings"
             ></ServiceCard>
           </motion.div>
         </motion.div>
