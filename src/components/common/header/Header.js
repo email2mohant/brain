@@ -170,204 +170,14 @@ class Header extends React.Component {
                           Information Technology
                         </span>
                       </Link>
-
                       <ul className="dropdown-items right-menu overflow-scroll">
-                        <li className="dropdown-item">
-                          <Link to="/services/aws">
-                            <span className="dropdown-item-icon">
-                              <i class="fab fa-aws"></i>
-                            </span>
-                            <span className="dropdown-item-text">AWS</span>
-                          </Link>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-cubes"></i>
-                            </span>
-                            <span className="dropdown-item-text">PEGA</span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fab fa-java fa-lg"></i>
-                            </span>
-                            <span className="dropdown-item-text">Java</span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-tools"></i>
-                            </span>
-
-                            <span className="dropdown-item-text">Devops</span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-server"></i>
-                            </span>
-                            <span className="dropdown-item-text">SAP</span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-clipboard-check"></i>
-                            </span>
-                            <span className="dropdown-item-text">
-                              Quality Assurance
-                            </span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-code"></i>
-                            </span>
-                            <span className="dropdown-item-text">
-                              Web Development
-                            </span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fab fa-microsoft"></i>
-                            </span>
-                            <span className="dropdown-item-text">.Net</span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fab fa-salesforce"></i>
-                            </span>
-                            <span className="dropdown-item-text">
-                              Salesforce
-                            </span>
-                          </a>
-                        </li>
-
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-cloud-upload-alt"></i>
-                            </span>
-                            <span className="dropdown-item-text">
-                              Cloud Computing
-                            </span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fab fa-android"></i>
-                            </span>
-
-                            <span className="dropdown-item-text">
-                              Mobile Application Development
-                            </span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-lock"></i>
-                            </span>
-                            <span className="dropdown-item-text">
-                              Cyber Security
-                            </span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-chart-bar"></i>
-                            </span>
-
-                            <span className="dropdown-item-text">
-                              Data Analytics
-                            </span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-robot"></i>
-                            </span>
-
-                            <span className="dropdown-item-text">
-                              Automation & AI
-                            </span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-brain"></i>
-                            </span>
-
-                            <span className="dropdown-item-text">
-                              Machine Learning
-                            </span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-cogs"></i>
-                            </span>
-
-                            <span className="dropdown-item-text">
-                              Robotics & RPA
-                            </span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-sitemap"></i>
-                            </span>
-
-                            <span className="dropdown-item-text">ERP</span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-users"></i>
-                            </span>
-                            <span className="dropdown-item-text">CRM</span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-file-alt"></i>
-                            </span>
-                            <span className="dropdown-item-text">CMS</span>
-                          </a>
-                        </li>
-                        <li className="dropdown-item">
-                          <a href="#">
-                            <span className="dropdown-item-icon">
-                              <i class="fas fa-microchip"></i>
-                            </span>
-                            <span className="dropdown-item-text">
-                              Embedded Systems
-                            </span>
-                          </a>
-                        </li>
+                        {this.getItServicesHeaderComponents()}
                       </ul>
                     </li>
                     <li className="dropdown-item">
                       <Link to="/services/consulting">
                         <span className="dropdown-item-icon">
-                          <i class="fas fa-comments"></i>
+                          <i className="fas fa-comments"></i>
                         </span>
 
                         <span className="dropdown-item-text">Consulting</span>
@@ -376,7 +186,7 @@ class Header extends React.Component {
                     <li className="dropdown-item">
                       <Link to="/services/onsite-offshore">
                         <span className="dropdown-item-icon">
-                          <i class="fas fa-plane"></i>
+                          <i className="fas fa-plane"></i>
                         </span>
 
                         <span className="dropdown-item-text">
@@ -387,7 +197,7 @@ class Header extends React.Component {
                     <li className="dropdown-item">
                       <Link to="/services/trainings">
                         <span className="dropdown-item-icon">
-                          <i class="fas fa-chalkboard-teacher"></i>
+                          <i className="fas fa-chalkboard-teacher"></i>
                         </span>
 
                         <span className="dropdown-item-text">Trainings</span>
@@ -396,7 +206,7 @@ class Header extends React.Component {
                     <li className="dropdown-item">
                       <a href="/services/outsourcing">
                         <span className="dropdown-item-icon">
-                          <i class="fas fa-briefcase"></i>
+                          <i className="fas fa-briefcase"></i>
                         </span>
 
                         <span className="dropdown-item-text">Outsourcing</span>
@@ -675,6 +485,122 @@ class Header extends React.Component {
         </div>
       </header>
     );
+  }
+  getItServicesHeaderComponents() {
+    return this.getItServices().map((service) => (
+      <li className="dropdown-item">
+        <Link to={service.link}>
+          <span className="dropdown-item-icon">
+            <i className={service.icon}></i>
+          </span>
+          <span className="dropdown-item-text">{service.name}</span>
+        </Link>
+      </li>
+    ));
+  }
+  getItServices() {
+    return [
+      {
+        name: "AWS",
+        icon: "fab fa-aws",
+        link: "/services/aws",
+      },
+      {
+        name: "PEGA",
+        icon: "fas fa-cubes",
+        link: "/services/pega",
+      },
+      {
+        name: "Java",
+        icon: "fab fa-java",
+        link: "/services/java",
+      },
+      {
+        name: "Devops",
+        icon: "fas fa-tools",
+        link: "/services/devops",
+      },
+      {
+        name: "SAP",
+        icon: "fas fa-server",
+        link: "/services/sap",
+      },
+      {
+        name: "Quality Assurance",
+        icon: "fas fa-clipboard-check",
+        link: "/services/qa",
+      },
+      {
+        name: "Web Development",
+        icon: "fas fa-code",
+        link: "/services/web-dev",
+      },
+      {
+        name: ".Net",
+        icon: "fab fa-microsoft",
+        link: "/services/dotnet",
+      },
+      {
+        name: "Salesforce",
+        icon: "fab fa-salesforce",
+        link: "/services/salesforce",
+      },
+      {
+        name: "Cloud Computing",
+        icon: "fas fa-cloud-upload-alt",
+        link: "/services/cloud",
+      },
+      {
+        name: "Mobile Application Development",
+        icon: "fab fa-android",
+        link: "/servies/mobile-dev",
+      },
+      {
+        name: "Cyber Security",
+        icon: "fas fa-lock",
+        link: "/services/cyber-sec",
+      },
+      {
+        name: "Data Analytics",
+        icon: "fas fa-chart-bar",
+        link: "/services/data-analytics",
+      },
+      {
+        name: "Automation & AI",
+        icon: "fas fa-robot",
+        link: "/services/ai",
+      },
+      {
+        name: "Machine Learning",
+        icon: "fas fa-brain",
+        link: "services/ml",
+      },
+      {
+        name: "Robotics & RPA",
+        icon: "fas fa-cogs",
+        link: "/services/rpa",
+      },
+      {
+        name: "ERP",
+        icon: "fas fa-sitemap",
+        link: "/services/erp",
+      },
+      {
+        name: "CRM",
+        icon: "fas fa-users",
+        link: "/services/crm",
+      },
+      {
+        name: "CMS",
+        icon: "fas fa-file-alt",
+        link: "/services/cms",
+      },
+      {
+        name: "Embedded Systems",
+        icon: "fas fa-microchip",
+        link: "/services/embedded-systes",
+      },
+    ];
   }
 }
 
