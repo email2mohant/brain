@@ -1,8 +1,8 @@
 import React from "react";
-import CommonBanner from "../../common/banner/CommonBanner";
-import Footer from "../../common/footer/Footer";
-import Header from "../../common/header/Header";
-import InfoSection from "../../common/infoSection/InfoSection";
+import CommonBanner from "../../../common/banner/CommonBanner";
+import Footer from "../../../common/footer/Footer";
+import Header from "../../../common/header/Header";
+import InfoSection from "../../../common/infoSection/InfoSection";
 
 class Aws extends React.Component {
   render() {
@@ -15,7 +15,6 @@ class Aws extends React.Component {
           title="Delivering value-driven solutions with innovation"
         >
           <p>
-            {" "}
             BrainHR AWS Services is a specialized service that provides
             businesses with access to the latest AWS technologies and tools to
             optimize their business operations. Our team of experts has the

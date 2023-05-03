@@ -16,8 +16,9 @@ import Training from "./components/pages/services/Training";
 import InformationTechnology from "./components/pages/services/InformationTechnology";
 import Outsourcing from "./components/pages/services/Outsourcing";
 import DigitalMarketing from "./components/pages/services/DigitalMarketing";
-import Aws from "./components/pages/services/Aws";
-
+import Aws from "./components/pages/services/it/Aws";
+import Pega from "./components/pages/services/it/Pega";
+import NotFound from "./components/common/misc/NotFound";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -51,6 +52,8 @@ class App extends React.Component {
             element={<DigitalMarketing />}
           />
           <Route path="/services/aws" element={<Aws />} />
+          <Route path="/services/pega" element={<Pega />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     );
