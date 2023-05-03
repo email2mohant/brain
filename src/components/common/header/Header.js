@@ -161,16 +161,6 @@ class Header extends React.Component {
                   </span>
                   <span className="dropbtn">Services</span>
                   <ul className="dropdown-items">
-                    <li className="dropdown-item">
-                      <Link to="/services/consulting">
-                        <span className="dropdown-item-icon">
-                          <i className="fa-solid fa-user"></i>
-                        </span>
-
-                        <span className="dropdown-item-text">Consulting</span>
-                      </Link>
-                    </li>
-
                     <li className="dropdown-item dropdown">
                       <Link to="/services/it">
                         <span className="dropdown-item-icon">
@@ -185,7 +175,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <Link to="/services/aws">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-cloud"></i>
+                              <i class="fab fa-aws"></i>
                             </span>
                             <span className="dropdown-item-text">AWS</span>
                           </Link>
@@ -193,7 +183,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-mobile-screen-button"></i>
+                              <i class="fas fa-cubes"></i>
                             </span>
                             <span className="dropdown-item-text">PEGA</span>
                           </a>
@@ -201,7 +191,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-magic-wand-sparkles"></i>
+                              <i class="fab fa-java fa-lg"></i>
                             </span>
                             <span className="dropdown-item-text">Java</span>
                           </a>
@@ -209,7 +199,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-magic-wand-sparkles"></i>
+                              <i class="fas fa-tools"></i>
                             </span>
 
                             <span className="dropdown-item-text">Devops</span>
@@ -218,7 +208,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-magic-wand-sparkles"></i>{" "}
+                              <i class="fas fa-server"></i>
                             </span>
                             <span className="dropdown-item-text">SAP</span>
                           </a>
@@ -226,7 +216,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>{" "}
+                              <i class="fas fa-clipboard-check"></i>
                             </span>
                             <span className="dropdown-item-text">
                               Quality Assurance
@@ -236,7 +226,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>{" "}
+                              <i class="fas fa-code"></i>
                             </span>
                             <span className="dropdown-item-text">
                               Web Development
@@ -246,7 +236,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fab fa-microsoft"></i>
                             </span>
                             <span className="dropdown-item-text">.Net</span>
                           </a>
@@ -254,7 +244,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fab fa-salesforce"></i>
                             </span>
                             <span className="dropdown-item-text">
                               Salesforce
@@ -265,7 +255,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-cloud-upload-alt"></i>
                             </span>
                             <span className="dropdown-item-text">
                               Cloud Computing
@@ -275,7 +265,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fab fa-android"></i>
                             </span>
 
                             <span className="dropdown-item-text">
@@ -286,7 +276,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-lock"></i>
                             </span>
                             <span className="dropdown-item-text">
                               Cyber Security
@@ -296,7 +286,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-chart-bar"></i>
                             </span>
 
                             <span className="dropdown-item-text">
@@ -307,7 +297,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-robot"></i>
                             </span>
 
                             <span className="dropdown-item-text">
@@ -318,7 +308,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-brain"></i>
                             </span>
 
                             <span className="dropdown-item-text">
@@ -329,7 +319,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-cogs"></i>
                             </span>
 
                             <span className="dropdown-item-text">
@@ -340,7 +330,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-sitemap"></i>
                             </span>
 
                             <span className="dropdown-item-text">ERP</span>
@@ -349,7 +339,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-users"></i>
                             </span>
                             <span className="dropdown-item-text">CRM</span>
                           </a>
@@ -357,7 +347,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-file-alt"></i>
                             </span>
                             <span className="dropdown-item-text">CMS</span>
                           </a>
@@ -365,7 +355,7 @@ class Header extends React.Component {
                         <li className="dropdown-item">
                           <a href="#">
                             <span className="dropdown-item-icon">
-                              <i className="fa-solid fa-shield"></i>
+                              <i class="fas fa-microchip"></i>
                             </span>
                             <span className="dropdown-item-text">
                               Embedded Systems
@@ -375,9 +365,18 @@ class Header extends React.Component {
                       </ul>
                     </li>
                     <li className="dropdown-item">
+                      <Link to="/services/consulting">
+                        <span className="dropdown-item-icon">
+                          <i class="fas fa-comments"></i>
+                        </span>
+
+                        <span className="dropdown-item-text">Consulting</span>
+                      </Link>
+                    </li>
+                    <li className="dropdown-item">
                       <Link to="/services/onsite-offshore">
                         <span className="dropdown-item-icon">
-                          <i className="fa-solid fa-shield"></i>
+                          <i class="fas fa-plane"></i>
                         </span>
 
                         <span className="dropdown-item-text">
@@ -388,7 +387,7 @@ class Header extends React.Component {
                     <li className="dropdown-item">
                       <Link to="/services/trainings">
                         <span className="dropdown-item-icon">
-                          <i className="fa-solid fa-bullhorn"></i>
+                          <i class="fas fa-chalkboard-teacher"></i>
                         </span>
 
                         <span className="dropdown-item-text">Trainings</span>
@@ -397,7 +396,7 @@ class Header extends React.Component {
                     <li className="dropdown-item">
                       <a href="/services/outsourcing">
                         <span className="dropdown-item-icon">
-                          <i className="fa-solid fa-bullhorn"></i>
+                          <i class="fas fa-briefcase"></i>
                         </span>
 
                         <span className="dropdown-item-text">Outsourcing</span>
