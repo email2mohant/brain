@@ -19,6 +19,14 @@ import DigitalMarketing from "./components/pages/services/DigitalMarketing";
 import Aws from "./components/pages/services/it/Aws";
 import Pega from "./components/pages/services/it/Pega";
 import NotFound from "./components/common/misc/NotFound";
+import Java from "./components/pages/services/it/Java";
+import DevOps from "./components/pages/services/it/Devops";
+import Sap from "./components/pages/services/it/Sap";
+import QA from "./components/pages/services/it/QA";
+import Web from "./components/pages/services/it/Web";
+import Dotnet from "./components/pages/services/it/Dotnet";
+import Salesforce from "./components/pages/services/it/Salesforce";
+import Cloud from "./components/pages/services/it/Cloud";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -53,6 +61,16 @@ class App extends React.Component {
           />
           <Route path="/services/aws" element={<Aws />} />
           <Route path="/services/pega" element={<Pega />} />
+          <Route path="/services/java" element={<Java />} />
+          <Route path="/services/devops" element={<DevOps />} />
+          <Route path="/services/sap" element={<Sap />} />
+          <Route path="/services/qa" element={<QA />} />
+
+          <Route path="/services/web" element={<Web />} />
+          <Route path="/services/dotnet" element={<Dotnet />} />
+          <Route path="/services/salesforce" element={<Salesforce />} />
+          <Route path="/services/cloud" element={<Cloud />} />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -533,7 +533,7 @@ class Header extends React.Component {
       {
         name: "Web Development",
         icon: "fas fa-code",
-        link: "/services/web-dev",
+        link: "/services/web",
       },
       {
         name: ".Net",
