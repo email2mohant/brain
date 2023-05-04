@@ -11,7 +11,7 @@ class Aws extends React.Component {
         <Header />
         <CommonBanner>BrainHR Amazon Web Services</CommonBanner>
         <InfoSection
-          name="Buidling world class cloud native solutions"
+          name="Empower your business with the limitless possibilities of AWS cloud computing."
           title="Delivering value-driven solutions with innovation"
         >
           <p>

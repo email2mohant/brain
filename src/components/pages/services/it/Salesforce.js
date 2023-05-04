@@ -11,7 +11,7 @@ class Salesforce extends React.Component {
         <Header />
         <CommonBanner>Salesforce</CommonBanner>
         <InfoSection
-          name="We offer specialized Salesforce services tailored for each client"
+          name="Revolutionize your business with the leading customer relationship management platform"
           title="Delivering value-driven solutions with innovation"
         >
           <p>

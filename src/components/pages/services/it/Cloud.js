@@ -11,7 +11,7 @@ class Cloud extends React.Component {
         <Header />
         <CommonBanner>Cloud Computing</CommonBanner>
         <InfoSection
-          name="We help you grow your business with our Cloud Computing solutions"
+          name="Accelerate your business to new heights with the limitless power of cloud computing"
           title="Delivering value-driven solutions with innovation"
         >
           <p>

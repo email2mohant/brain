@@ -27,11 +27,12 @@ import Web from "./components/pages/services/it/Web";
 import Dotnet from "./components/pages/services/it/Dotnet";
 import Salesforce from "./components/pages/services/it/Salesforce";
 import Cloud from "./components/pages/services/it/Cloud";
+import Mobile from "./components/pages/services/it/Mobile";
+import CyberSecurity from "./components/pages/services/it/CyberSecurity";
+import Analytics from "./components/pages/services/it/Analytics";
+import Automation from "./components/pages/services/it/Automation";
+import MachineLearning from "./components/pages/services/it/MachineLearning";
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <BrowserRouter basename="/brain">
@@ -70,6 +71,11 @@ class App extends React.Component {
           <Route path="/services/dotnet" element={<Dotnet />} />
           <Route path="/services/salesforce" element={<Salesforce />} />
           <Route path="/services/cloud" element={<Cloud />} />
+          <Route path="/services/mobile" element={<Mobile />} />
+          <Route path="/services/cyber-security" element={<CyberSecurity />} />
+          <Route path="/services/analytics" element={<Analytics />} />
+          <Route path="/services/automation" element={<Automation />} />
+          <Route path="/services/ml" element={<MachineLearning />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

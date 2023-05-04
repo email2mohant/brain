@@ -11,11 +11,10 @@ class Dotnet extends React.Component {
         <Header />
         <CommonBanner>Microsoft .Net</CommonBanner>
         <InfoSection
-          name="We have specialized expertise in Microsoft Technologies"
+          name="Fueling business innovation through robust and secure applications"
           title="Delivering value-driven solutions with innovation"
         >
           <p>
-            {" "}
             BrainHR utilizes a wide range of frameworks, tools, IDEs, APIs, and
             programming languages to implement .NET services. Visual Studio,
             Visual Studio Code, JetBrains Rider, and SharpDevelop are the

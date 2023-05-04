@@ -11,8 +11,8 @@ class QA extends React.Component {
         <Header />
         <CommonBanner>Quality Assurance</CommonBanner>
         <InfoSection
-          name="We help you raise the bar of software quality"
-          title="Delivering value-driven solutions with innovation"
+          name="Deliver excellence to your customers with the precision"
+          title="Value-driven solutions with innovation"
         >
           <p>
             BrainHR offers a range of Quality Assurance, manual and automation

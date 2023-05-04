@@ -11,8 +11,8 @@ class Web extends React.Component {
         <Header />
         <CommonBanner>Frontend Web Development</CommonBanner>
         <InfoSection
-          name="We offer comprehensive front-end and web development solutions"
-          title="Delivering value-driven solutions with innovation"
+          name="Transform your business with the power of the web"
+          title="Responsive, Dynamic and Engaging"
         >
           <p>
             BrainHR offers comprehensive front-end and web development services

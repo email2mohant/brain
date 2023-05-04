@@ -11,8 +11,8 @@ class DevOps extends React.Component {
         <Header />
         <CommonBanner>Devops</CommonBanner>
         <InfoSection
-          name="Offering end to end Devops Solutions"
-          title="Delivering value-driven solutions with innovation"
+          name="Accelerate your business growth with DevOps"
+          title="The winning approach to software delivery."
         >
           <p>
             BrainHR offers comprehensive DevOps services to its clients. Our

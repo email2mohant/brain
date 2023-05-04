@@ -11,7 +11,7 @@ class Sap extends React.Component {
         <Header />
         <CommonBanner>BrainHR SAP Services</CommonBanner>
         <InfoSection
-          name="Buidling world class SAP solutions"
+          name="Empower your business with the agility of SAP enterprise solutions."
           title="Delivering value-driven solutions with innovation"
         >
           <p>

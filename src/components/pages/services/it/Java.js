@@ -11,7 +11,7 @@ class Java extends React.Component {
         <Header />
         <CommonBanner>BrainHR Java Services</CommonBanner>
         <InfoSection
-          name="Buidling world class middleware solutions"
+          name="Boost your business performance with the flexibility of Java technology"
           title="Delivering value-driven solutions with innovation"
         >
           <p>

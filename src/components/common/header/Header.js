@@ -553,27 +553,27 @@ class Header extends React.Component {
       {
         name: "Mobile Application Development",
         icon: "fab fa-android",
-        link: "/servies/mobile-dev",
+        link: "/services/mobile",
       },
       {
         name: "Cyber Security",
         icon: "fas fa-lock",
-        link: "/services/cyber-sec",
+        link: "/services/cyber-security",
       },
       {
         name: "Data Analytics",
         icon: "fas fa-chart-bar",
-        link: "/services/data-analytics",
+        link: "/services/analytics",
       },
       {
         name: "Automation & AI",
         icon: "fas fa-robot",
-        link: "/services/ai",
+        link: "/services/automation",
       },
       {
         name: "Machine Learning",
         icon: "fas fa-brain",
-        link: "services/ml",
+        link: "/services/ml",
       },
       {
         name: "Robotics & RPA",

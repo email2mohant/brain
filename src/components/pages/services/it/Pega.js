@@ -11,7 +11,7 @@ class Pega extends React.Component {
         <Header />
         <CommonBanner>BrainHR PEGA Services</CommonBanner>
         <InfoSection
-          name="Buidling world class PEGA Services"
+          name="Transform your business with Pega's intelligent automation solutions."
           title="Delivering value-driven solutions with innovation"
         >
           <p>
