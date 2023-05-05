@@ -47,40 +47,40 @@ export default class ServiceCards extends React.Component {
             className="serviceCards"
           >
             <ServiceCard
-              icon="fa-solid fa-users-viewfinder"
+              icon="fas fa-users-viewfinder"
               title="Consulting"
-              description="With a team of experienced consultatns, We are a leading partner in many IT companies across the US as their strategic IT consultant."
+              description="Empower your business with expert guidance and customized solutions tailored to your unique needs, provided by BrainHR Consulting services, unlocking the full potential of your workforce and driving sustainable growth in today's dynamic business landscape"
               link="/services/consulting"
             ></ServiceCard>
             <ServiceCard
-              icon="fa-solid fa-mobile-screen"
-              title="Staff Augmentation"
-              description="With a vast network of qualified IT professionals, We provide skilled and experienced talent to supplement a client's existing team."
-              link="/services/staff-augmentation"
+              icon="fas fa-laptop-code"
+              title="Information Technology"
+              description="Transform your technology landscape with innovative solutions and unparalleled expertise from BrainHR Information Technology services, leveraging cutting-edge technologies and best practices to optimize your operations, enhance user experiences and drive innovative transformation in the ever-evolving world of IT"
+              link="/services/it"
             ></ServiceCard>
             <ServiceCard
-              icon="fa-solid fa-book"
-              title="Strategic HR Solutions"
-              description="With a focus on data-driven solutions, We provide actionable insights that help organizations make informed HR decisions."
-              link="/services/hr-solutions"
+              icon="fas fa-chalkboard-teacher"
+              title="Trainings"
+              description="Train your workforce with the skills and knowledge they need to thrive in today's rapidly changing business environment, through comprehensive and customized training programs offered by BrainHR Training services, equipping your teams with the tools and expertise to drive innovation, collaboration, and growth"
+              link="/services/trainings"
             ></ServiceCard>
             <ServiceCard
-              icon="fa-solid fa-share-from-square"
-              title="Recruitment"
-              description="We offer best in class Recruiting Solutions tailored for your staffing needs with extremely skilled candidates in neumerous technologies."
-              link="/services/recruiting"
-            ></ServiceCard>
-            <ServiceCard
-              icon="fa-solid fa-layer-group"
+              icon="fas fa-plane"
               title="Onsite-Offshore Model"
-              description="Our Onsite-Offshore model reduces the cost burdent on reducing and maintaining the staff augmentation with permanent and temporary positions."
+              description="Maximize your global competitiveness with BrainHR Onsite Offshore model services, providing a unique blend of on-site and offshore expertise to optimize your operations, reduce costs, and accelerate your time-to-market, all while ensuring unparalleled quality, security, and customer satisfaction"
               link="/services/onsite-offshore"
             ></ServiceCard>
             <ServiceCard
-              icon="fa-solid fa-puzzle-piece"
-              title="Training"
-              description="We are a leading global talent development corporation offering training and development solutions to individuals and corporate clients."
-              link="/services/trainings"
+              icon="fas fa-briefcase"
+              title="Outsourcing"
+              description="Unleash the full potential of your business with BrainHR Outsourcing services, offering end-to-end solutions that streamline your operations, reduce costs, and free up your resources to focus on core business activities, all while ensuring unparalleled quality, flexibility, and agility in today's dynamic marketplace"
+              link="/services/outsourcing"
+            ></ServiceCard>
+            <ServiceCard
+              icon="fa-solid fa-bullhorn"
+              title="Digital Marketing"
+              description="Drive your business growth and brand awareness with BrainHR Digital Marketing services, leveraging innovative strategies, data-driven insights, and cutting-edge technologies to connect with your target audience, optimize your online presence, and unlock new opportunities for engagement and revenue generation in the fast-paced world of digital marketing"
+              link="/services/digital-marketing"
             ></ServiceCard>
           </motion.div>
         </motion.div>

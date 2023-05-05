@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./banners.css";
 
 import banner1 from "./images/1.jpg";
@@ -12,7 +13,7 @@ class Banners extends React.Component {
         id="home-page-banners"
         className="carousel slide banners-container"
         data-bs-ride="carousel"
-        data-bs-interval="4000"
+        data-bs-interval="2000"
       >
         <div className="banners-container-overlay" />
         <div className="carousel-indicators">
@@ -43,79 +44,64 @@ class Banners extends React.Component {
             aria-label="Slide 4"
           ></button>
         </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={banner1} alt="..." />
-            <div className="carousel-caption">
-              <p className="banner-headline from-top animation-delay-8">
-                An Innovative
-              </p>
-              <p className="banner-title from-top animation-delay-6">
-                Digital Enterprise
-              </p>
-              <p className="banner-description from-top animation-delay-2">
-                We develop custom solutions for you no matter your industry or
-                need.
-              </p>
-              <a href="#" className="btn-full">
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img src={banner2} alt="..." />
-            <div className="carousel-caption">
-              <p className="banner-headline from-top animation-delay-8">
-                Your Next Business Advantage
-              </p>
-              <p className="banner-title from-top animation-delay-6">
-                Digital Transformation
-              </p>
-              <p className="banner-description from-top animation-delay-2">
-                Delivering Value through Cybernated Implementations
-              </p>
-              <a href="#" className="btn-full">
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img src={banner3} alt="..." />
-            <div className="carousel-caption">
-              <p className="banner-headline from-top animation-delay-8">
-                Optimizing System Governance with Big Data
-              </p>
-              <p className="banner-title from-top animation-delay-6">
-                Data Engineering
-              </p>
-              <p className="banner-description from-top animation-delay-2">
-                Delivering Value through Cybernated Implementations
-              </p>
-              <a href="#" className="btn-full">
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img src={banner4} alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <p className="banner-headline from-top animation-delay-8">
-                Connect Industries & Drive the Change
-              </p>
-              <p className="banner-title from-top animation-delay-6">
-                Salesforce
-              </p>
-              <p className="banner-description from-top animation-delay-2">
-                Drive, Deliver & Expand Seamlessly with the World’s #1 CRM
-              </p>
-              <a href="#" className="btn-full">
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
+        <div className="carousel-inner">{this.getBannersComponents()}</div>
       </div>
     );
+  }
+  getBanners() {
+    const banners = [
+      {
+        headLine: "An Innovative",
+        title: "Digital Enterprise",
+        description:
+          "We develop custom solutions for you no matter your industry or need",
+        link: "#",
+        image: banner1,
+      },
+      {
+        headLine: "Your Next Business Advantage",
+        title: "Digital Transformation",
+        description: "Delivering Value through Cybernated Implementations",
+        link: "#",
+        image: banner2,
+      },
+      {
+        headLine: "Optimizing System Governance with Big Data",
+        title: "Data Engineering",
+        description: "Delivering Value through Cybernated Implementations",
+        link: "#",
+        image: banner3,
+      },
+      {
+        headLine: "Optimizing System Governance with Big Data",
+        title: "Data Engineering",
+        description: "Delivering Value through Cybernated Implementations",
+        link: "#",
+        image: banner4,
+      },
+    ];
+    return banners;
+  }
+  getBannersComponents() {
+    return this.getBanners().map((banner, index) => (
+      <div className="carousel-item active">
+        <img src={banner.image} alt={banner.title} />
+        <div className="carousel-caption">
+          <p className="banner-headline from-top animation-delay-8">
+            {banner.headLine}
+          </p>
+          <p className="banner-title from-top animation-delay-6">
+            {banner.title}
+          </p>
+          <p className="banner-description from-top animation-delay-2">
+            {banner.description}
+          </p>
+          <Link to={banner.link} className="btn-full">
+            Learn More
+          </Link>
+        </div>
+      </div>
+    ));
   }
 }
 export default Banners;

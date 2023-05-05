@@ -11,7 +11,7 @@ class InformationTechnology extends React.Component {
         <Header />
         <CommonBanner>Information Technology</CommonBanner>
         <InfoSection
-          name="Specialized in providing tailored solutions"
+          name="Transforming the way you do business through innovative technology solutions - the power of IT"
           title="Delivering value-driven solutions with innovation"
         >
           <p>

@@ -11,7 +11,7 @@ class Recruiting extends React.Component {
         <Header />
         <CommonBanner>Recruitment</CommonBanner>
         <InfoSection
-          name="A world class leader in recruting the top talent"
+          name="Connecting top talent with exceptional opportunities"
           title="Delivering value-driven solutions with innovation"
         >
           <p>
