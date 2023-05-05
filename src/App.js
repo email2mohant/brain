@@ -4,7 +4,7 @@ import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Home from "./components/pages/home/Home";
-import About from "./components/pages/about/About";
+import WhoWeAre from "./components/pages/about/WhoWeAre";
 import Consulting from "./components/pages/services/Consulting";
 import "./common/css/styles.css";
 import "./common/css/animations.css";
@@ -37,13 +37,25 @@ import Erp from "./components/pages/services/it/Erp";
 import Crm from "./components/pages/services/it/Crm";
 import Cms from "./components/pages/services/it/Cms";
 import EmbeddedSystems from "./components/pages/services/it/EmbeddedSystems";
+import Vision from "./components/pages/about/Vision";
+import Culture from "./components/pages/about/Culture";
+import Research from "./components/pages/about/Research";
+import Minorities from "./components/pages/about/Minorities";
+import Csr from "./components/pages/about/Csr";
+import PainPoints from "./components/pages/about/PainPoints";
 class App extends React.Component {
   render() {
     return (
       <BrowserRouter basename="/brain">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about/who-we-are" element={<WhoWeAre />} />
+          <Route path="/about/vision" element={<Vision />} />
+          <Route path="/about/culture" element={<Culture />} />
+          <Route path="/about/research" element={<Research />} />
+          <Route path="/about/minorities" element={<Minorities />} />
+          <Route path="/about/csr" element={<Csr />} />
+          <Route path="/about/pain-points" element={<PainPoints />} />
           <Route path="/services/consulting" element={<Consulting />} />
           <Route
             path="/services/staff-augmentation"

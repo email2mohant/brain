@@ -72,23 +72,23 @@ class Header extends React.Component {
                   <span className="dropbtn">About</span>
                   <ul className="dropdown-items">
                     <li className="dropdown-item">
-                      <a href="#">
+                      <Link to="/about/who-we-are">
                         <span className="dropdown-item-icon">
                           <i className="fa-solid fa-users"></i>
                         </span>
                         <span className="dropdown-item-text">Who We Are</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="dropdown-item">
-                      <a href="#">
+                      <Link to="/about/vision">
                         <span className="dropdown-item-icon">
                           <i className="fa-solid fa-bullseye"></i>
                         </span>
                         <span className="dropdown-item-text">Our Vision</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="dropdown-item">
-                      <a href="#">
+                      <Link to="/about/culture">
                         <span className="dropdown-item-icon">
                           <i className="fa-solid fa-rocket"></i>
                         </span>
@@ -96,10 +96,10 @@ class Header extends React.Component {
                         <span className="dropdown-item-text">
                           Our People & Our Culture
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="dropdown-item">
-                      <a href="#">
+                      <Link to="/about/research">
                         <span className="dropdown-item-icon">
                           <i className="fa-solid fa-lightbulb"></i>
                         </span>
@@ -107,10 +107,10 @@ class Header extends React.Component {
                         <span className="dropdown-item-text">
                           Research & Development
                         </span>
-                      </a>
+                      </Link>
                     </li>
 
-                    <li className="dropdown-item">
+                    {/* <li className="dropdown-item">
                       <a href="#">
                         <span className="dropdown-item-icon">
                           <i className="fa-solid fa-handshake"></i>
@@ -119,9 +119,9 @@ class Header extends React.Component {
                           Partnership & Collaboration
                         </span>
                       </a>
-                    </li>
+                    </li> */}
                     <li className="dropdown-item">
-                      <a href="#">
+                      <Link to="/about/minorities">
                         <span className="dropdown-item-icon">
                           <i className="fa-solid fa-dove"></i>
                         </span>
@@ -129,10 +129,10 @@ class Header extends React.Component {
                         <span className="dropdown-item-text">
                           Women & Minorities
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="dropdown-item">
-                      <a href="#">
+                      <Link to="/about/csr">
                         <span className="dropdown-item-icon">
                           <i className="fa-solid fa-hand-holding-heart"></i>
                         </span>
@@ -140,10 +140,10 @@ class Header extends React.Component {
                         <span className="dropdown-item-text">
                           Corporate Social Responsibility
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="dropdown-item">
-                      <a href="#">
+                      <Link to="/about/pain-points">
                         <span className="dropdown-item-icon">
                           <i className="fa-solid fa-folder-open"></i>
                         </span>
@@ -151,7 +151,7 @@ class Header extends React.Component {
                         <span className="dropdown-item-text">
                           Addressing Pain Points
                         </span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
