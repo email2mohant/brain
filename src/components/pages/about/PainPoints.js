@@ -15,11 +15,12 @@ class PainPoints extends React.Component {
           name="Solving Complex Problems, Simply"
           title="Delivering value-driven solutions with innovation"
         >
-          <p></p>
-          <strong>Problem:</strong> Freshers or Unemployed those who don’t have
-          experience caught between the endless loop of Employers wanting
-          preferring those who have at least Few years of experience and
-          Candidates needing experience and opportunities
+          <p>
+            <strong>Problem:</strong> Freshers or Unemployed those who don’t
+            have experience caught between the endless loop of Employers wanting
+            preferring those who have at least Few years of experience and
+            Candidates needing experience and opportunities
+          </p>
           <p>
             <strong>Solution:</strong> To prevent this deadlock, we have
             developed In house Programs for IT Training in all Technologies,
@@ -76,13 +77,17 @@ class PainPoints extends React.Component {
           <br></br>
           <p>
             <strong>Problem:</strong> Inefficient and outdated IT infrastructure
-            leading to decreased productivity and high operational costs.{" "}
+            leading to decreased productivity and high operational costs.
+          </p>
+          <p>
             <strong>Solution:</strong> BRAINHR IT Solutions can help businesses
             modernize their IT infrastructure and optimize their operations by
             providing services such as cloud migration, network setup and
             management, and cybersecurity solutions. Our team of experts can
             evaluate the current IT infrastructure and design customized
-            solutions to improve performance and reduce costs.{" "}
+            solutions to improve performance and reduce costs.
+          </p>
+          <p>
             <strong>Problem:</strong> Lack of in-house IT expertise leading to
             delayed projects and increased risks.
           </p>
