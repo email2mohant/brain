@@ -32,6 +32,11 @@ import CyberSecurity from "./components/pages/services/it/CyberSecurity";
 import Analytics from "./components/pages/services/it/Analytics";
 import Automation from "./components/pages/services/it/Automation";
 import MachineLearning from "./components/pages/services/it/MachineLearning";
+import Rpa from "./components/pages/services/it/Rpa";
+import Erp from "./components/pages/services/it/Erp";
+import Crm from "./components/pages/services/it/Crm";
+import Cms from "./components/pages/services/it/Cms";
+import EmbeddedSystems from "./components/pages/services/it/EmbeddedSystems";
 class App extends React.Component {
   render() {
     return (
@@ -76,6 +81,14 @@ class App extends React.Component {
           <Route path="/services/analytics" element={<Analytics />} />
           <Route path="/services/automation" element={<Automation />} />
           <Route path="/services/ml" element={<MachineLearning />} />
+          <Route path="/services/rpa" element={<Rpa />} />
+          <Route path="/services/erp" element={<Erp />} />
+          <Route path="/services/crm" element={<Crm />} />
+          <Route path="/services/cms" element={<Cms />} />
+          <Route
+            path="/services/embedded-systems"
+            element={<EmbeddedSystems />}
+          />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

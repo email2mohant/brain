@@ -9,9 +9,9 @@ class Recruiting extends React.Component {
     return (
       <>
         <Header />
-        <CommonBanner>Recruiting</CommonBanner>
+        <CommonBanner>Recruitment</CommonBanner>
         <InfoSection
-          name="A world class leader in Recruting"
+          name="A world class leader in recruting the top talent"
           title="Delivering value-driven solutions with innovation"
         >
           <p>

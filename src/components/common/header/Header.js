@@ -162,6 +162,17 @@ class Header extends React.Component {
                   <span className="dropbtn">Services</span>
                   <ul className="dropdown-items">
                     <li className="dropdown-item dropdown">
+                      <Link to="/services/consulting">
+                        <span className="dropdown-item-icon">
+                          <i className="fas fa-comments"></i>
+                        </span>
+                        <span className="dropdown-item-text">Consulting</span>
+                      </Link>
+                      <ul className="dropdown-items right-menu overflow-scroll">
+                        {this.getConsultingServicesHeaderComponents()}
+                      </ul>
+                    </li>
+                    <li className="dropdown-item dropdown">
                       <Link to="/services/it">
                         <span className="dropdown-item-icon">
                           <i className="fa-solid fa-laptop-code"></i>
@@ -174,15 +185,7 @@ class Header extends React.Component {
                         {this.getItServicesHeaderComponents()}
                       </ul>
                     </li>
-                    <li className="dropdown-item">
-                      <Link to="/services/consulting">
-                        <span className="dropdown-item-icon">
-                          <i className="fas fa-comments"></i>
-                        </span>
 
-                        <span className="dropdown-item-text">Consulting</span>
-                      </Link>
-                    </li>
                     <li className="dropdown-item">
                       <Link to="/services/onsite-offshore">
                         <span className="dropdown-item-icon">
@@ -486,8 +489,18 @@ class Header extends React.Component {
       </header>
     );
   }
+  getConsultingServicesHeaderComponents() {
+    return this.getConsultingServices().map((service) =>
+      this.getHeaderComponent(service)
+    );
+  }
   getItServicesHeaderComponents() {
-    return this.getItServices().map((service) => (
+    return this.getItServices().map((service) =>
+      this.getHeaderComponent(service)
+    );
+  }
+  getHeaderComponent(service) {
+    return (
       <li className="dropdown-item">
         <Link to={service.link}>
           <span className="dropdown-item-icon">
@@ -496,7 +509,27 @@ class Header extends React.Component {
           <span className="dropdown-item-text">{service.name}</span>
         </Link>
       </li>
-    ));
+    );
+  }
+
+  getConsultingServices() {
+    return [
+      {
+        name: "Staff Augmentation",
+        icon: "fas fa-users-cog",
+        link: "/services/staff-augmentation",
+      },
+      {
+        name: "HR Strategic Solutions",
+        icon: "fas fa-balance-scale",
+        link: "/services/hr-solutions",
+      },
+      {
+        name: "Recruitment",
+        icon: "fas fa-user-tie",
+        link: "/services/recruiting",
+      },
+    ];
   }
   getItServices() {
     return [
@@ -598,7 +631,7 @@ class Header extends React.Component {
       {
         name: "Embedded Systems",
         icon: "fas fa-microchip",
-        link: "/services/embedded-systes",
+        link: "/services/embedded-systems",
       },
     ];
   }

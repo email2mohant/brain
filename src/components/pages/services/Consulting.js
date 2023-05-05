@@ -11,7 +11,7 @@ class Consulting extends React.Component {
         <Header />
         <CommonBanner>Consulting</CommonBanner>
         <InfoSection
-          name="A leading partner in many IT Companies"
+          name="Collaborating with your business to unleash the full potential."
           title="Delivering value-driven solutions with innovation"
         >
           <p>
